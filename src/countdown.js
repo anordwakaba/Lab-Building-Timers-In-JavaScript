@@ -12,11 +12,13 @@
  * countdownTimer(10, 1000); // Logs remaining time every second for 10 seconds.
  */
 function countdownTimer(startTime, interval) {
+
   // Initialize the remaining time
    let remainingTime = startTime;
 
   // Set up a timer using setInterval
    const timerId = setInterval(() => {
+    
     // Log the remaining time and decrement it
     console.log(remainingTime);
     remainingTime--;
